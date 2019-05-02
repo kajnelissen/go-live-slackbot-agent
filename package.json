@@ -1,0 +1,30 @@
+{
+  "name": "go-live-slackbot-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajnelissen/go-live-slackbot-agent.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Kaj Nelissen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajnelissen/go-live-slackbot-agent/issues"
+  },
+  "homepage": "https://github.com/kajnelissen/go-live-slackbot-agent#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.13.8",
+    "typescript": "^3.4.5"
+  }
+}
